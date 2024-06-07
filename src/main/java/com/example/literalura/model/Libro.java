@@ -1,30 +1,48 @@
 package com.example.literalura.model;
 
-import java.util.Optional;
-import java.util.OptionalDouble;
+import jakarta.persistence.*;
 
+import java.util.OptionalDouble;
+@Entity
+@Table(name = "libros")
 public class Libro {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
+    @Column(unique = true)
     private String titulo;
-    private String autor;
+   // private String autor;
     private String idioma;
     private double numeroDescargas;
+    @ManyToOne
+    private Autor autor;
 
     public Libro(){}
+
     public Libro(DatosLibro datosLibro){
         this.titulo = datosLibro.titulo();
-        this.autor = datosLibro.autor().get(0).nombre();
+        //this.autor = datosLibro.autor().get(0).nombre();
         this.idioma = datosLibro.idiomas().get(0);
         this.numeroDescargas = OptionalDouble.of(Double.valueOf(datosLibro.numeroDescargas())).orElse(0);
+        this.autor = new Autor(datosLibro.autor());
     }
 
-    @Override
-    public String toString() {
-        return
-                "titulo='" + titulo + '\'' +
-                ", autor='" + autor + '\'' +
-                ", idioma='" + idioma + '\'' +
-                ", numeroDescargas=" + numeroDescargas;
+    public Autor getAutor() {
+        return autor;
     }
+
+    public void setAutor(Autor autor) {
+        this.autor = autor;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
 
     public String getTitulo() {
         return titulo;
@@ -34,13 +52,13 @@ public class Libro {
         this.titulo = titulo;
     }
 
-    public String getAutor() {
-        return autor;
-    }
-
-    public void setAutor(String autor) {
-        this.autor = autor;
-    }
+//    public String getAutor() {
+//        return autor;
+//    }
+//
+//    public void setAutor(String autor) {
+//        this.autor = autor;
+//    }
 
     public String getIdioma() {
         return idioma;
@@ -56,5 +74,15 @@ public class Libro {
 
     public void setNumeroDescargas(double numeroDescargas) {
         this.numeroDescargas = numeroDescargas;
+    }
+
+    @Override
+    public String toString() {
+        return
+                "titulo='" + titulo + '\'' +
+                        //", autor='" + autor + '\'' +
+                        ",autor=" + autor.getNombre() +
+                        ", idioma='" + idioma + '\'' +
+                        ", numeroDescargas=" + numeroDescargas;
     }
 }
