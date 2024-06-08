@@ -37,6 +37,7 @@ El proyecto utiliza las siguientes tecnologías:
 - IntelliJ IDEA 2023.3.6 (Community Edition)
 - Spring
 - Java
+- postgres
 - API de https://gutendex.com/
 - Git
 - ChatGPT
