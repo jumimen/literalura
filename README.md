@@ -51,5 +51,5 @@ Este proyecto fue desarrollado por:
 
 ## Conclusión
 
-La aplicación Literalura es una herramienta útil para realizar busquedas y consultas a la API gutendex.com de libros de manera rápida y sencilla. Me ha permitido incursionar en el uso del framework spring, no hay sido facil pero fue un reto que que me ha ayudado a poner en practica conceptos aprendidos en la especialización de backend en el programa ONE.Todavia la aplicación presenta ciertas fallas que la hacen inestable en algunas busquedas, pero todas las funcionalidades fueron probadas y sirve. Si tienes alguna pregunta, sugerencia o problema, favor ponerse en contacto conmigo.Gracias.
+La aplicación Literalura es una herramienta útil para realizar busquedas y consultas a la API gutendex.com de libros de manera rápida y sencilla. Me ha permitido incursionar en el uso del framework spring, no hay sido facil pero fue un reto  que me ha ayudado a poner en practica conceptos aprendidos en la especialización de backend en el programa ONE.Todas las funcionalidades fueron probadas y sirven. Si tienen alguna pregunta, sugerencia o problema, favor ponerse en contacto conmigo.Gracias.
 
