@@ -23,6 +23,7 @@ Actualmente, el proyecto es funcional, aunque pueden existir áreas de mejora y 
 La aplicación ofrece las siguientes características:
 
 - Busqueda libro por titulo en la API.
+  (imagenes/opcion1.jpg).
   
 - Conversión de divisas en tiempo real utilizando la API de Exchange-rate.
 - No permite opciones no númericas en la selección del menu y la cantidad.
