@@ -12,18 +12,18 @@
 
 Este proyecto consiste en un programa que realiza consultas a la API https://gutendex.com; y va agregando los datos del libro a dos tablas(libros y autores) en una base de datos local. El aplicativo cuenta con diferentes funcionalidades que permiten al usuario interactuar con la API y la base de datos.
 
-##Opciones.
 ![Opciones](imagenes/opciones.jpg).
 
 ## Estado del proyecto
 
-Actualmente, el proyecto es funcional, aunque pueden existir áreas de mejora y optimización expecialmente en un manejo mas exhaustivo de las excepciones. Es necesario revisar el codigo en una etapa de desarrollo 2 y agregarle nuevas funcionalidades y suprimir las lineas de codigo que no son necesarias.
+Actualmente, el proyecto es funcional, aunque pueden existir áreas de mejora y optimización expecialmente en un manejo mas exhaustivo de las excepciones y se podrian agregar otras opciones de busqueda para hacerlo más completo. Es necesario revisar el codigo en una etapa de desarrollo 2 y agregarle nuevas funcionalidades y suprimir las lineas de codigo que no son necesarias.
 
 ## Características de la aplicación y demostración
 
 La aplicación ofrece las siguientes características:
 
-- Menú  para seleccionar las monedas de origen y destino.
+- Busqueda libro por titulo en la API.
+  
 - Conversión de divisas en tiempo real utilizando la API de Exchange-rate.
 - No permite opciones no númericas en la selección del menu y la cantidad.
 ##Menu.
