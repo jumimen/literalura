@@ -11,7 +11,8 @@
 ## Descripción del proyecto
 
 Este proyecto consiste en un programa que realiza consultas a la API https://gutendex.com; y va agregando los datos del libro a dos tablas(libros y autores) en una base de datos local. El aplicativo cuenta con diferentes funcionalidades que permiten al usuario interactuar con la API y la base de datos.
-
+##Opciones.
+![Opciones](imagenes/opciones.jpg).
 
 
 ## Estado del proyecto
