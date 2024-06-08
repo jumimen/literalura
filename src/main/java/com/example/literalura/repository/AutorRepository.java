@@ -8,6 +8,7 @@ import org.springframework.data.repository.query.Param;
 import java.util.List;
 
 public interface AutorRepository extends JpaRepository<Autor,Long> {
+    @Query("SELECT a FROM Autor a WHERE a.nombre LIKE %:nombre%")
     Autor findByNombre(String nombre);
     @Query("SELECT a FROM Autor a WHERE a.fechaNacimiento <= :anio AND a.fechaFallecimiento >= :anio")
     List<Autor> findAllVivosEnAnio(@Param("anio")int anio);
