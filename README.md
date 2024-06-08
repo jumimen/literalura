@@ -21,28 +21,25 @@ Actualmente, el proyecto es funcional, aunque pueden existir áreas de mejora y 
 ## Características de la aplicación y demostración
 
 La aplicación ofrece las siguientes características:
-
-- Busqueda libro por titulo en la API.
   ![Caracteristicas](imagenes/opcion1.jpg).
+  ![Caracteristicas](imagenes/libroBaseD.jpg).
+  ![Caracteristicas](imagenes/opcion2.jpg).
+  ![Caracteristicas](imagenes/opcion3.jpg).
+  ![Caracteristicas](imagenes/opcion4.jpg).
+  ![Caracteristicas](imagenes/opcion5.jpg).
+  ![Caracteristicas](imagenes/opcion6.jpg).
+  ![Caracteristicas](imagenes/opcion7.jpg).
+  ![Caracteristicas](imagenes/opcion8.jpg).
   
-- Conversión de divisas en tiempo real utilizando la API de Exchange-rate.
-- No permite opciones no númericas en la selección del menu y la cantidad.
-##Menu.
-![Menu](Imagenes/menu.jpg)
-
-##Funcionamiento.
-![Funcionamiento](Imagenes/funcionamiento.jpg)
-
-##Salir.
-![Salir](Imagenes/salir.jpg).
-
 ## Tecnologías utilizadas
 
 El proyecto utiliza las siguientes tecnologías:
-
+- IntelliJ IDEA 2023.3.6 (Community Edition)
+- Spring
 - Java
-- API de Exchange-rate
+- API de https://gutendex.com/
 - Git
+- ChatGPT
 
 ## Personas Desarrolladoras del Proyecto
 
@@ -53,5 +50,5 @@ Este proyecto fue desarrollado por:
 
 ## Conclusión
 
-El Conversor de Divisas es una herramienta útil para realizar conversiones de moneda de manera rápida y sencilla. Me ha permitido poner en practica varios conceptos enseñados en los cursos como la pob y uso de API. Espero poder aplicar mas conceptos en futuros desarrollos. Si tienes alguna pregunta, sugerencia o problema, favor ponerse en contacto conmigo.Gracias.
+La aplicación Literalura es una herramienta útil para realizar busquedas y consultas a la API gutendex.com de libros de manera rápida y sencilla. Me ha permitido incursionar en el uso del framework spring, no hay sido facil pero fue un reto que que me ha ayudado a poner en practica conceptos aprendidos en la especialización de backend en el programa ONE.Todavia la aplicación presenta ciertas fallas que la hacen inestable en algunas busquedas, pero todas las funcionalidades fueron probadas y sirve. Si tienes alguna pregunta, sugerencia o problema, favor ponerse en contacto conmigo.Gracias.
 
